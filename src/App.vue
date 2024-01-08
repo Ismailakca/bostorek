@@ -7,7 +7,7 @@ export default {
   name: "App",
   data() {
     return {
-      name: "ismail",
+      name: "ismail akca",
     };
   },
 };
