@@ -1,7 +1,7 @@
 <template lang="">
   <nav class="navbar navbar-expand-md custom-nav">
     <div class="container">
-      <a href="#" class="navbar-brand">Bots</a>
+      <a href="#" class="navbar-brand">{{ brandName }}</a>
       <ul class="navbar-nav">
         <li class="nav-item">
           <a href="#" class="nav-link">Books</a>
@@ -22,6 +22,11 @@
 <script>
 export default {
   name: "NavBar",
+  data() {
+    return {
+      brandName: "Bostorek",
+    };
+  },
 };
 </script>
 <style scoped>
