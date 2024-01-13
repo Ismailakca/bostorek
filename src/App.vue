@@ -1,18 +1,16 @@
 <template>
   <NavBar />
+  <RouterView />
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue";
+import { RouterView } from "vue-router";
 export default {
   name: "App",
-  data() {
-    return {
-      name: "ismail akca",
-    };
-  },
   components: {
     NavBar,
+    RouterView,
   },
 };
 </script>
