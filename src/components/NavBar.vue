@@ -24,7 +24,7 @@ export default {
   name: "NavBar",
   data() {
     return {
-      brandName: "Bostorek",
+      brandName: "Bostorekk",
     };
   },
 };
